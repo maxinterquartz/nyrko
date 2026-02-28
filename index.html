@@ -1,14 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Фамильная почта Nyrko.ru</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фамильная почта nyrko.ru</title>
     <style>
-        body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: sans-serif; background-color: #f4f4f4; }
-        h1 { color: #333; border: 2px solid #333; padding: 20px; border-radius: 10px; }
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            border: 1px dotted rgba(255,255,255,0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            color: #1e3c72;
+            background-color: #ffffff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+            background-color: #f0f0f0;
+        }
     </style>
 </head>
 <body>
-    <h1>Фамильная почта Nyrko.ru</h1>
+    <div class="container">
+        <h1>Фамильная почта nyrko.ru</h1>
+        <p>Добро пожаловать в семейный почтовый сервис</p>
+        <a href="https://biz.mail.ru/login/nyrko.ru" class="btn">Войти в почту</a>
+    </div>
 </body>
 </html>
